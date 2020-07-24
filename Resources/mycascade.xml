@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<myfacedetector type_id="opencv-haar-classifier">
+  <size>
+    24 24</size>
+  <stages>
+    <_>
+      <trees>
+        <_>
+          <_>
+            <feature>
+              <rects>
+                <_>
+                  0 0 5 18 -1.</_>
+                <_>
+                  0 6 5 6 3.</_></rects>
+              <tilted>0</tilted></feature>
+            <threshold>0.0962502509355545</threshold>
+            <left_val>-1.</left_val>
+            <right_val>1.</right_val></_></_></trees>
+      <stage_threshold>1.</stage_threshold>
+      <parent>-1</parent>
+      <next>-1</next></_>
+    <_>
+      <trees>
+        <_>
+          <_>
+            <feature>
+              <rects>
+                <_>
+                  3 0 12 17 -1.</_>
+                <_>
+                  6 0 6 17 2.</_></rects>
+              <tilted>0</tilted></feature>
+            <threshold>0.1013317033648491</threshold>
+            <left_val>-1.</left_val>
+            <right_val>0.9218751192092896</right_val></_></_></trees>
+      <stage_threshold>0.9218751192092896</stage_threshold>
+      <parent>0</parent>
+      <next>-1</next></_>
+    <_>
+      <trees>
+        <_>
+          <_>
+            <feature>
+              <rects>
+                <_>
+                  0 12 22 12 -1.</_>
+                <_>
+                  0 12 11 6 2.</_>
+                <_>
+                  11 18 11 6 2.</_></rects>
+              <tilted>0</tilted></feature>
+            <threshold>-0.0967982411384583</threshold>
+            <left_val>1.</left_val>
+            <right_val>-1.</right_val></_></_></trees>
+      <stage_threshold>1.</stage_threshold>
+      <parent>1</parent>
+      <next>-1</next></_>
+    <_>
+      <trees>
+        <_>
+          <_>
+            <feature>
+              <rects>
+                <_>
+                  12 0 8 2 -1.</_>
+                <_>
+                  12 0 8 1 2.</_></rects>
+              <tilted>1</tilted></feature>
+            <threshold>-0.0180269796401262</threshold>
+            <left_val>0.9055117964744568</left_val>
+            <right_val>-0.9663866758346558</right_val></_></_>
+        <_>
+          <_>
+            <feature>
+              <rects>
+                <_>
+                  7 5 10 4 -1.</_>
+                <_>
+                  12 5 5 2 2.</_>
+                <_>
+                  7 7 5 2 2.</_></rects>
+              <tilted>0</tilted></feature>
+            <threshold>-0.0110497204586864</threshold>
+            <left_val>0.9148771166801453</left_val>
+            <right_val>-0.9054973125457764</right_val></_></_></trees>
+      <stage_threshold>-0.0515095591545105</stage_threshold>
+      <parent>2</parent>
+      <next>-1</next></_></stages></myfacedetector>
+</opencv_storage>
