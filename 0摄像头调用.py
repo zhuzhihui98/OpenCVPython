@@ -27,10 +27,10 @@ def Start():
         qin = faceCascade2.detectMultiScale(imgGray, 1.1, 4)
         for (x, y, w, h) in yang:
             cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
-            img = cv2ImgAddText(img, "人脸", x, y, (0, 255, 0), 20)
+            img = cv2ImgAddText(img, "杨", x, y, (0, 255, 0), 20)
         for (x, y, w, h) in qin:
             cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
-            img = cv2ImgAddText(img, "人脸", x, y, (0, 255, 0), 20)
+            img = cv2ImgAddText(img, "秦", x, y, (0, 255, 0), 20)
         cv2.imshow("Video", img)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
